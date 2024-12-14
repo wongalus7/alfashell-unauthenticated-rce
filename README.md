@@ -1,5 +1,5 @@
 # alfashell-unauthenticated-rce
-![ALFASHELL RCE](https://i.imgur.com/Si78yUy.png)
+![ALFASHELL RCE](https://i.imgur.com/QZrNxEh.png)
 **ALFASHELL RCE** adalah exploit untuk file yang biasanya auto create untuk ALFA Shell Backdor di beberapa versi, berikut ini adalah kode python3 untuk mengeksekusinya.
 
 ## Requirements
@@ -10,6 +10,7 @@ Kamu dapat menginstal yang dibutuhkan untuk menjalankan tools ini menggunakan pe
 apt install python3
 apt install python3-pip
 apt install git
+pip3 install requests colorama
 git clone https://github.com/wongalus7/alfashell-unauthenticated-rce/
 cd alfashell-unauthenticated-rce
 python3 exploit.py
